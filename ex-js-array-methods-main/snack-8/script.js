@@ -20,7 +20,7 @@ const students = [
 ];
 
 const studente = students.find((student)=>{
-  return student
+  return student.name == "Marco Lanci"
 })
 console.log(studente.class);
 
